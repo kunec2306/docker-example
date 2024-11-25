@@ -13,6 +13,7 @@ COPY . .
 RUN npm prune --production
 
 ENV PORT 3000
+#s
 
 EXPOSE 3000
 
